@@ -1,0 +1,27 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/SOOY.js" type="text/javascript"></script>
+    <link href="css/side.css" type="text/css" rel="stylesheet">
+    <title>title</title>
+</head>
+<body>
+<div class="music" id="wof">
+    <img  src="img/music-1.png"  alt="碟片指针">
+    <img  id="music" class="play" src="img/music-2.png" alt="碟片">
+</div>
+<div class="page" id="page1">
+    <div class="bg"></div>
+    <div class="p1-logo-bg" id="p1-logo"></div>
+    <div class="p1_imooc"></div>
+    <div class="p1_words"></div>
+
+</div>
+<div class="p1tyle" id="HuoDong"></div>
+<audio autoplay="true" >
+    <source src="audio/刘德华%20-%20恭喜发财%202016.mp3" type="audio/mpeg">
+</audio>
+</body>
+</body>
+</html>
