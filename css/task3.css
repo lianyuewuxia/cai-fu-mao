@@ -1,0 +1,15 @@
+
+#demo{width:1200px;display: none;padding-top: 400px; display: none;}
+#innerht{width:1200px;height:500px;position:relative;}
+#innerht ul li{position:absolute;top:0;left:0;z-index:1;}
+#innerht ul li img{width:100%;}
+#task3-btm{
+    position: absolute;
+    bottom: 120px;
+    left: 300px;
+}
+
+/*#corrow{position:absolute;width:100%;top:50%;opacity:0;z-index:99;}*/
+/*#btn_lef,#btn_rig{position:absolute;height:112px;width:76px;top:50%;margin-top:-56px;}*/
+/*#btn_lef{left:0;}*/
+/*#btn_rig{right:0;}*/

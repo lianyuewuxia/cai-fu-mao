@@ -1,0 +1,163 @@
+/*all tag*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    /*这样控制字体可以随手机屏幕的大小进行适配,解决了自适应问题*/
+    /*相对于视口的宽度。视口被均分为100单位的vw，同理vh*/
+    /*如果视口的宽度是200mm，那么一个8vw的元素字号将为16mm，即(8x200)/100*/
+    font-size: 1.5625vw;
+    font-family: "Microsoft Yahei"
+}
+/*html/body标签也是块元素*/
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+/*music*/
+.music {
+    width: 15vw;
+    height: 15vw;
+    position: fixed;
+    top: 3vh;
+    right: 4vw;
+}
+
+.music>img:first-of-type {
+    position: absolute;
+    left: 1.5vh;
+    width: 70%;
+
+}
+.music>img:last-of-type {
+    position: absolute;
+    width: 70%;
+    top: 0;
+    right: 1vh;
+    margin: auto;
+    z-index: 0;
+}
+/*page bg*/
+.page>.bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+/*注册页面*/
+#page0>.bg-0{
+    background: url("../img/bg-0.png")no-repeat center center;
+    background-size: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.page0{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.page0 img{
+    margin-top: 150px;
+    width: 28vw;
+}
+.page0 p{
+    margin-top: 70px;
+    font-size: 40px;
+}
+.page0 span{
+    display: block;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.page0 span+span{
+    margin-bottom: 80px;
+}
+.page0 ul{
+    list-style: none;
+
+}
+.text-left {
+    width:300px;
+}
+.text-right {
+    width: 260px;
+}
+.page0 input{
+    width: 650px;
+    height: 90px;
+    border-radius: 100px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+.page0 li i{
+    background: url("../img/icon-text01.png")no-repeat;
+    width: 30px;
+    height: 35px;
+    position: absolute;
+    left:220px;
+    margin-top: 30px;
+}
+#page0{
+    display: block;
+}
+/*page 1*/
+#page1 {
+    display: none;
+}
+
+#page1>.bg {
+    background: url("../img/div-bg.png") no-repeat center center;
+    /*css3新属性，拉伸背景图像来完全覆盖内容区域*/
+    background-size: 100%;
+    z-index: -1;
+}
+#page1>.page1{
+    text-align: center;
+    color: white;
+    padding: 30px;
+
+}
+.page1 img{
+}
+#page1>.page1 h2{
+    font-size: 55px;
+}
+.page1 p{
+    font-size: 35px;
+    margin:20px 0; ;
+}
+.page1 .font{
+    display: block;
+    font-size:26px;
+    color: #663333;
+    margin-top: 10px;
+}
+.page1 span{
+    display: block;
+    color: #663333;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.logo-mao-1{
+    width: 80vw;
+}
+.logo-mao-2{
+    width: 50vw;
+    margin-top: 70px;
+}
+.logo-mao-0{
+    width: 20vw;
+    margin: 30px ;
+}
+.logo-mao{
+    width: 20vw;
+    margin: 30px 0 0 0;
+}
+.activity{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #cccccc;
+}
